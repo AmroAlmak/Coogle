@@ -7,10 +7,64 @@
   font-family: "Futura PT", sans-serif;
 }
 
-/*  header maxine 
+h3{
+  font-family: "Futura PT", sans-serif;
+  font-size: 24px;
+}
 
- section one amro  
+/*  header maxine */
+ /* section one amro   */
 
- section two stefen  
+ /* section two stefan */
 
- footer yosra   */
+.cuisinesContainer{
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.headline{
+  margin-top: 120px;
+  width: 80%;
+  font-family: "Futura PT", sans-serif;
+  font-weight: 600;
+  font-size: 36px;
+  text-align: center;
+}
+
+.cuisinesItems{
+  margin-top: 250px;
+  width: 80%;
+  display: flex;
+  justify-content: space-around;
+}
+
+
+.item{
+  width: 320px;
+  height: 320px;
+  border: 2px solid #000;
+  align-items : center;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+}
+
+.sudanese{
+  background-color: beige;
+}
+
+.taiwanese{
+  background-color: bisque;
+}
+
+.tunisian{
+  background-color: blanchedalmond;
+}
+
+.german{
+  background-color: burlywood;
+}
+
+ /* footer yosra */
