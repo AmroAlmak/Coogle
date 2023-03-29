@@ -242,12 +242,29 @@ ul li {
 }
 
 .dishContent{
+  width: 30%;
+  padding-left: 10px;
   display: flex;
   flex-direction: column;
-  justify-content: space-evenly;
+  justify-content: flex-start;
+  border: 2px solid black;
 }
 .dishContent p{
   color: black;
+}
+
+.ingredientsList li{
+  color: black;
+  text-align: justify;
+  list-style: none;
+}
+
+.dishDescription{
+  margin-top: 20px;
+}
+
+.dishDescription p{
+  margin-top: 5px;
 }
 
 /* ####### END OF DISH PAGE STYLING ###### */
