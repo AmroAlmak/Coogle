@@ -14,3 +14,32 @@
  section two stefen  
 
  footer yosra   */
+
+.privacycontainer {
+  width: 100%;
+  background-color: black;
+  display: flex;
+  align-content: space-between;
+  padding: 8em;
+}
+.box1 {
+}
+.logos {
+  display: flex;
+}
+.logos img {
+  width: 3%;
+}
+.box2 {
+}
+.box3 {
+}
+p {
+  color: white;
+}
+h4 {
+  color: white;
+}
+ul li {
+  color: white;
+}
