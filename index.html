@@ -1,98 +1,106 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-<head>
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js"></script>
+  </head>
 
-  <title>Document</title>
-  <link rel="stylesheet" href="style.css" />
-  <script src="script.js"></script>
-</head>
+  <body>
+    <!-- header maxine -->
+    <header>
+      <div class="navcontainer">
+        <div>
+          <img src="./asset/coogle.png" />
+        </div>
+        <nav>
+          <div class="dropdowncontainer">
+            <button class="navbutton">Our Recipe</button>
+            <ul class="dropdowncontainer-content">
+              <li><a href="./germancategory.html">German</a></li>
+              <br />
+              <li><a href="./taiwanesecategory.html">Taiwanese</a></li>
+              <br />
+              <li><a href="./Tunisiancategory.html">Tunisian</a></li>
+              <br />
+              <li><a href="./sudanesecategory.html">Sudanese</a></li>
+            </ul>
+          </div>
+          <button class="navbutton">
+            <a href="#end-of-page">Contact Us</a>
+          </button>
+        </nav>
+      </div>
+    </header>
+    <!-- section one amro  -->
+    <section class="formContainer">
+      <form class="search" action="">
+        <input id="searchId" type="search" required />
+        <button onclick="redirect()" value="" type="submit">Search</button>
+      </form>
+    </section>
+    <!-- section one amro  -->
 
-<body>
-<!-- header maxine -->
-<header>
-  <div class="navcontainer">
-    <div>
-      <img src="./asset/coogle.png">
-    </div>
-    <nav>
-      <div class="dropdowncontainer">
-        <button class="navbutton">Our Recipe</button>
-        <ul class="dropdowncontainer-content">
-          <li><a href="./germancategory.html">German</a></li><br>
-          <li><a href="./taiwanesecategory.html">Taiwanese</a></li><br>
-          <li><a href="./Tunisiancategory.html">Tunisian</a></li><br>
-          <li><a href="./sudanesecategory.html">Sudanese</a></li>
-        </ul>
+    <!-- section two stefen  -->
+    <section class="cuisinesContainer">
+      <div class="headline">
+        <h2>What are your favorite cuisines?</h2>
       </div>
-      <button class="navbutton"><a href="#end-of-page">Contact Us</a></button>
-    </nav>
-  </div>
-</header>
-  <!-- section one amro  -->
-  <section></section>
-  <!-- section one amro  -->
-
-  <!-- section two stefen  -->
-  <section class="cuisinesContainer">
-    <div class="headline">
-      <h2>What are your favorite cuisines?</h2>
-    </div>
-    <div class="cuisinesItems">
-      <div class="item sudanese">
-        <h3>sudanese</h3>
-      </div>
-      <div class="item taiwanese">
-        <h3>taiwanese</h3>
-      </div>
-      <div class="item tunisian">
-        <h3>tunisian</h3>
-      </div>
-      <div class="item german">
-        <h3>german</h3>
-      </div>
-    </div>
-  </section>
-
-  <!-- footer yosra  -->
-  <section>
-    <div class="privacycontainer">
-      <div box1>
-        <img src="/coogle.png" alt="" />
-        <p>
-          Recipes you want to make. Cook advice that works. Restaurant
-          recommandations you trust.
-        </p>
-        <div class="logos">
-          <img src="alt"="" />
-          <img src="alt"="" />
-          <img src="" alt="" />
-          <img src="/inst.png" alt="" />
+      <div class="cuisinesItems">
+        <div class="item sudanese">
+          <h3>sudanese</h3>
+        </div>
+        <div class="item taiwanese">
+          <h3>taiwanese</h3>
+        </div>
+        <div class="item tunisian">
+          <h3>tunisian</h3>
+        </div>
+        <div class="item german">
+          <h3>german</h3>
         </div>
       </div>
-      <div class="box2">
-        <h4>MORE FROM COOGLE</h4>
-        <ul>
-          <li>NEWSLETTER SIGNUP</li>
-          <li>COOGLE MEDIA KIT</li>
-          <li>BASICALLY</li>
-          <li>HEALTHYISH</li>
-          <li>ARCHIVE</li>
-        </ul>
-      </div>
-      <div class="box3">
-        <h4>CONTACT</h4>
-        <ul>
-          <li>SUBSCRIPTION FAQS</li>
-          <li>CAREERS</li>
-        </ul>
-      </div>
-    </div>
-  </section>
-  <!-- footer yosra  -->
-</body>
+    </section>
 
+    <!-- footer yosra  -->
+    <section>
+      <div class="privacycontainer">
+        <div box1>
+          <img src="/coogle.png" alt="" />
+          <p>
+            Recipes you want to make. Cook advice that works. Restaurant
+            recommandations you trust.
+          </p>
+          <div class="logos">
+            <img src="alt" ="" />
+            <img src="alt" ="" />
+            <img src="" alt="" />
+            <img src="/inst.png" alt="" />
+          </div>
+        </div>
+        <div class="box2">
+          <h4>MORE FROM COOGLE</h4>
+          <ul>
+            <li>NEWSLETTER SIGNUP</li>
+            <li>COOGLE MEDIA KIT</li>
+            <li>BASICALLY</li>
+            <li>HEALTHYISH</li>
+            <li>ARCHIVE</li>
+          </ul>
+        </div>
+        <div class="box3">
+          <h4>CONTACT</h4>
+          <ul>
+            <li>SUBSCRIPTION FAQS</li>
+            <li>CAREERS</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <!-- footer yosra  -->
+  </body>
 </html>
