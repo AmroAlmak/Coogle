@@ -14,17 +14,14 @@
   background-color: black;
  }
  .navcontainer{
-  
   display: flex;
   flex-direction:column ;
   align-items:center;
-  padding-bottom: 10px;
   padding-top: 50px;
  }
  .navcontainer img{
   width: 200px;
   margin-bottom: 5px;
-
  }
  nav {
   display: flex;
@@ -197,4 +194,15 @@ ul li {
   -ms-transform: scale(1.3); /* IE 9 */
   -webkit-transform: scale(1.3); /* Safari 3-8 */
   transform: scale(1.3); 
+}
+.catagoryLableContainer{
+  padding-left: 0px;
+  padding-right: 30px;
+  margin-top: 60px;
+  font-family:"Futura PT", sans-serif; 
+  font-size: larger;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
 }
