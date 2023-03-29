@@ -7,6 +7,11 @@
   font-family: "Futura PT", sans-serif;
 }
 
+h3 {
+  font-family: "Futura PT", sans-serif;
+  font-size: 24px;
+}
+
 /*  header maxine */
  header{
   width: 100%;
@@ -55,8 +60,6 @@
   z-index: 1;
   list-style:none;
  }
-
-
 .navcontainer a{
   color: white;
   text-decoration: none;
@@ -66,27 +69,8 @@
  }
 
 
- /* section one amro  
+ /* section one amro  */
 
- section two stefen  
-
- footer yosra   */ 
-@import url("https://fonts.cdnfonts.com/css/futura-pt");
-
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: "Futura PT", sans-serif;
-}
-
-h3 {
-  font-family: "Futura PT", sans-serif;
-  font-size: 24px;
-}
-
-/*  header maxine */
-/* section one amro   */
 
 /* section two stefan */
 
