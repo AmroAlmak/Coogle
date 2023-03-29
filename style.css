@@ -219,43 +219,50 @@ ul li {
 /* ####### START OF DISH PAGE STYLING ###### */
 
 .singleDishContainer{
-  height: 70vh;
+  height: 80vh;
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
 .dishContentContainer{
-  margin-top: 50px;
-  width: 60%;
+  margin-top: 150px;
+  width: 90%;
   /* border: 2px solid black; */
   display: flex;
   justify-content: space-evenly;
-  /* gap: 100px; */
+  gap: 100px;
 }
 
-.imgDish{
-  width: 520px;
-  height: 520px;
-  border-radius: 15px;
-  background-color: blanchedalmond;
+
+.imgDish img{
+  width: 1000px;
+  height: auto;
+  border-radius: 20px;
+  object-fit: cover;
 }
 
 .dishContent{
-  width: 30%;
+  width: 50%;
   padding-left: 10px;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
-  border: 2px solid black;
+  /* border: 2px solid black; */
+  font-size: 1.5em;
 }
+
+.dishContent h3{
+  text-align: center;
+}
+
 .dishContent p{
   color: black;
 }
 
 .ingredientsList li{
   color: black;
-  text-align: justify;
+  text-align: center;
   list-style: none;
 }
 
