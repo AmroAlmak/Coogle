@@ -134,7 +134,7 @@ nav {
 
 /* section two stefan */
 
-.cuisinesContainer {
+.cuisinesContainer{
   height: 100vh;
   display: flex;
   flex-direction: column;
@@ -212,3 +212,42 @@ h4 {
 ul li {
   color: white;
 }
+
+/* ####### END OF LANDING PAGE ###### */
+
+
+/* ####### START OF DISH PAGE STYLING ###### */
+
+.singleDishContainer{
+  height: 70vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.dishContentContainer{
+  margin-top: 50px;
+  width: 60%;
+  /* border: 2px solid black; */
+  display: flex;
+  justify-content: space-evenly;
+  /* gap: 100px; */
+}
+
+.imgDish{
+  width: 520px;
+  height: 520px;
+  border-radius: 15px;
+  background-color: blanchedalmond;
+}
+
+.dishContent{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+.dishContent p{
+  color: black;
+}
+
+/* ####### END OF DISH PAGE STYLING ###### */
