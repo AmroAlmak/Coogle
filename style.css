@@ -10,14 +10,14 @@
 /*  header maxine */
 header {
   width: 100%;
-  height: 150px;
+  height: 200px;
   background-color: black;
 }
 .navcontainer {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding-top: 50px;
+  padding-top: 85px;
 }
 .navcontainer img {
   width: 200px;
@@ -34,13 +34,17 @@ nav {
   position: relative;
   display: inline-block;
 }
-.navbutton {
+.dropdowncontainer button{
+  font-size: larger;
   background-color: black;
   border: 2px solid black;
   box-shadow: none;
   color: white;
   margin-left: 20px;
   margin-right: 20px;
+}
+.dropdowncontainer button:hover{
+  color: #cac7c7;
 }
 .dropdowncontainer-content {
   display: none;
@@ -52,8 +56,11 @@ nav {
   z-index: 1;
   list-style: none;
 }
-
+.dropdowncontainer-content a:hover {
+ color: #6e6c6c;
+}
 .navcontainer a {
+  font-size: larger;
   color: white;
   text-decoration: none;
 }
@@ -271,7 +278,8 @@ span {
   justify-content: space-around;
 }
 .catagoryContainer img {
-  width: 300px;
+  object-fit: cover;
+  width: 400px;
   height: 400px;
   border-radius: 20%;
 }
@@ -290,6 +298,11 @@ span {
   display: flex;
   flex-direction: row;
   justify-content: space-around;
+  color: #000;
+}
+.catagoryLableContainer button{
+  background-color: transparent;
+  border: 0cm;
 }
 
 /* ####### START OF DISH PAGE STYLING ###### */
