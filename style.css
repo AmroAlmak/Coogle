@@ -73,144 +73,6 @@ nav {
   height: 400px;
 }
 
-/* section one amro  */
-.search {
-  width: 500px;
-  height: 40px;
-  margin: 0 auto;
-  background: #444;
-  background: rgba(0, 0, 0, 0.2);
-  border-radius: 3px;
-  border: 1px solid #fff;
-}
-
-.search input {
-  width: 370px;
-  padding: 10px 5px;
-  float: left;
-  color: #ccc;
-  border: 0;
-  background: transparent;
-  border-radius: 3px 0 0 3px;
-}
-
-.search input:focus {
-  outline: 0;
-  background: transparent;
-}
-
-.search button {
-  position: relative;
-  float: right;
-  border: 0;
-  padding: 0;
-  cursor: pointer;
-  height: 40px;
-  width: 120px;
-  color: #fff;
-  background: transparent;
-  border-left: 1px solid #fff;
-  border-radius: 0 3px 3px 0;
-}
-
-.search button:hover {
-  background: rgb(24, 23, 23);
-  color: #444;
-}
-
-.search button:active {
-  box-shadow: 0px 0px 12px 0px #e1e1e1;
-}
-
-.search button:focus {
-  outline: 0;
-}
-
-/*  section one amro  * 
-
- section two stefen  
-
- footer yosra   */
-@import url("https://fonts.cdnfonts.com/css/futura-pt");
-
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  font-family: "Futura PT", sans-serif;
-}
-
-h3 {
-  font-family: "Futura PT", sans-serif;
-  font-size: 24px;
-}
-
-/*  header maxine */
-header {
-  width: 100%;
-  height: 150px;
-  background-color: black;
-}
-.navcontainer {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  padding-bottom: 10px;
-  padding-top: 50px;
-}
-.navcontainer img {
-  width: 100px;
-  margin-bottom: 30px;
-}
-nav {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  color: white;
-  width: 100%;
-}
-.dropdowncontainer {
-  position: relative;
-  display: inline-block;
-}
-.navbutton {
-  background-color: black;
-  border: 2px solid black;
-  box-shadow: none;
-  color: white;
-  margin-left: 20px;
-  margin-right: 20px;
-}
-.dropdowncontainer-content {
-  display: none;
-  position: absolute;
-  background-color: black;
-  min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
-  padding: 2em;
-  z-index: 1;
-  list-style: none;
-}
-.navcontainer a {
-  color: white;
-  text-decoration: none;
-}
-.dropdowncontainer:hover .dropdowncontainer-content {
-  display: block;
-}
-
-/*  section one amro  */
-
-.formContainer {
-  background-image: url("https://bluemoonthaicafe.com/wp-content/uploads/2020/04/italian-food-background-1.jpg");
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-  width: 100%;
-  padding-top: 150px;
-  height: 400px;
-}
-
 .search {
   width: 500px;
   height: 40px;
@@ -319,33 +181,73 @@ nav {
 /* footer yosra */
 
 .privacycontainer {
+  display: flex;
+  justify-content: space-evenly;
   width: 100%;
   background-color: black;
-  display: flex;
-  align-content: space-between;
-  padding: 8em;
+  padding: 3em;
 }
 .box1 {
+  display: flex;
+  width: 20%;
+  flex-direction: column;
+  justify-content: flex-end;
 }
 .logos {
   display: flex;
+  justify-content: space-evenly;
 }
 .logos img {
-  width: 3%;
+  width: 10%;
 }
+
 .box2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  width: 20%;
+  padding-left: 2em;
+}
+.box3 {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  width: 20%;
+}
+.box4 {
+  box-sizing: border-box;
+  width: 30%;
+  display: flex;
 }
 
 p {
   color: white;
 }
+
+h4:hover {
+  color: blue;
+}
 h4 {
   color: white;
 }
-ul li {
+.box2 li:hover {
+  color: lightskyblue;
+}
+.box3 li:hover {
+  color: lightskyblue;
+}
+.box2,
+.box3 ul li {
   color: white;
 }
-
+span {
+  color: white;
+}
+.mywidth {
+  width: 20em;
+  font-size: 1em;
+}
+/* ####### END OF LANDING PAGE ###### */
 /* catagory-page-stele Maxine */
 .catagoryContainer {
   height: 600px;
@@ -386,13 +288,10 @@ ul li {
   flex-direction: row;
   justify-content: space-around;
 }
-/* ####### END OF LANDING PAGE ###### */
 
 /* ####### START OF DISH PAGE STYLING ###### */
 
-
-
-.singleDishContainer{
+.singleDishContainer {
   height: 80vh;
 
   display: flex;
@@ -400,16 +299,14 @@ ul li {
   align-items: center;
 }
 
-.dishContentContainer{
+.dishContentContainer {
   margin-top: 150px;
   width: 90%;
-
   /* border: 2px solid black; */
   display: flex;
   justify-content: space-evenly;
   gap: 100px;
 }
-
 
 .imgDish {
   width: 520px;
@@ -418,15 +315,14 @@ ul li {
   background-color: blanchedalmond;
 }
 
-
-.imgDish img{
+.imgDish img {
   width: 1000px;
   height: auto;
   border-radius: 20px;
   object-fit: cover;
 }
 
-.dishContent{
+.dishContent {
   width: 50%;
   padding-left: 10px;
   display: flex;
@@ -436,25 +332,25 @@ ul li {
   font-size: 1.5em;
 }
 
-.dishContent h3{
+.dishContent h3 {
   text-align: center;
 }
 
-.dishContent p{
+.dishContent p {
   color: black;
 }
 
-.ingredientsList li{
+.ingredientsList li {
   color: black;
   text-align: center;
   list-style: none;
 }
 
-.dishDescription{
+.dishDescription {
   margin-top: 20px;
 }
 
-.dishDescription p{
+.dishDescription p {
   margin-top: 5px;
 }
 
