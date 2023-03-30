@@ -336,7 +336,7 @@ ul li {
 }
 
 .dishContentContainer{
-  margin-top: 150px;
+  margin-top: 50px;
   width: 90%;
   /* border: 2px solid black; */
   display: flex;
@@ -346,7 +346,7 @@ ul li {
 
 
 .imgDish img{
-  width: 1000px;
+  width: 500px;
   height: auto;
   border-radius: 20px;
   object-fit: cover;
@@ -359,7 +359,7 @@ ul li {
   flex-direction: column;
   justify-content: flex-start;
   /* border: 2px solid black; */
-  font-size: 1.5em;
+  font-size: 1em;
 }
 
 .dishContent h3{
@@ -381,7 +381,7 @@ ul li {
 }
 
 .dishDescription p{
-  margin-top: 5px;
+  margin-left: 15px;
 }
 
 /* ####### END OF DISH PAGE STYLING ###### */
