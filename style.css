@@ -299,8 +299,8 @@ span {
   align-items: center;
 }
 
-.dishContentContainer {
-  margin-top: 150px;
+.dishContentContainer{
+  margin-top: 50px;
   width: 90%;
   /* border: 2px solid black; */
   display: flex;
@@ -315,8 +315,8 @@ span {
   background-color: blanchedalmond;
 }
 
-.imgDish img {
-  width: 1000px;
+.imgDish img{
+  width: 500px;
   height: auto;
   border-radius: 20px;
   object-fit: cover;
@@ -329,7 +329,7 @@ span {
   flex-direction: column;
   justify-content: flex-start;
   /* border: 2px solid black; */
-  font-size: 1.5em;
+  font-size: 1em;
 }
 
 .dishContent h3 {
@@ -350,8 +350,8 @@ span {
   margin-top: 20px;
 }
 
-.dishDescription p {
-  margin-top: 5px;
+.dishDescription p{
+  margin-left: 15px;
 }
 
 /* ####### END OF DISH PAGE STYLING ###### */
