@@ -64,7 +64,8 @@ nav {
 /*  section one amro  */
 
 .formContainer {
-  background-image: url("https://bluemoonthaicafe.com/wp-content/uploads/2020/04/italian-food-background-1.jpg");
+  background: linear-gradient(rgba(36, 36, 36, 0.8), rgba(32, 32, 32, 0.4)),
+    url("https://uniquedestination.mitsishotels.com/wp-content/uploads/2018/03/shutterstock_467823860-1024x463.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -87,7 +88,7 @@ nav {
   width: 370px;
   padding: 10px 5px;
   float: left;
-  color: #ccc;
+  color: #ffffff;
   border: 0;
   background: transparent;
   border-radius: 3px 0 0 3px;
@@ -299,7 +300,7 @@ span {
   align-items: center;
 }
 
-.dishContentContainer{
+.dishContentContainer {
   margin-top: 50px;
   width: 90%;
   /* border: 2px solid black; */
@@ -315,7 +316,7 @@ span {
   background-color: blanchedalmond;
 }
 
-.imgDish img{
+.imgDish img {
   width: 500px;
   height: auto;
   border-radius: 20px;
@@ -350,7 +351,7 @@ span {
   margin-top: 20px;
 }
 
-.dishDescription p{
+.dishDescription p {
   margin-left: 15px;
 }
 
