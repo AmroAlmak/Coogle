@@ -376,6 +376,15 @@ h4:hover {
   color: black;
 }
 
+.dishIngredients ul li{
+  text-align: center;
+  list-style: none;
+}
+
+.dishIngredients p{
+  text-align: center;
+}
+
 .ingredientsList li {
   color: black;
   text-align: center;
