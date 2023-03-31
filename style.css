@@ -34,7 +34,7 @@ nav {
   position: relative;
   display: inline-block;
 }
-.dropdowncontainer button {
+.navbutton {
   font-size: larger;
   background-color: black;
   border: 2px solid black;
@@ -43,7 +43,7 @@ nav {
   margin-left: 20px;
   margin-right: 20px;
 }
-.dropdowncontainer button:hover {
+.navbutton:hover {
   color: #cac7c7;
 }
 .dropdowncontainer-content {
