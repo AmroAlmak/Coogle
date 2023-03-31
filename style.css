@@ -181,7 +181,7 @@ nav {
   display: flex;
   justify-content: center;
 }
-
+/* this are the beautiful images on the landing page */
 .sudanese {
   background: linear-gradient(rgba(36, 36, 36, 0.7), rgba(32, 32, 32, 0.3)),
   url("https://st2.depositphotos.com/3300441/11019/i/600/depositphotos_110190786-stock-photo-table-served-with-middle-eastern.jpg");
@@ -206,7 +206,7 @@ nav {
 
 .german {
   background: linear-gradient(rgba(36, 36, 36, 0.7), rgba(32, 32, 32, 0.3)),
-  url("https://cdn.discordapp.com/attachments/1080774193274175558/1091009631695929384/germanfood.jpeg");
+  url("https://cdn.discordapp.com/attachments/1080774193274175558/1091009631695929384/germanfood.jpeg"); 
   background-size: cover;
   background-position: center;
 }
