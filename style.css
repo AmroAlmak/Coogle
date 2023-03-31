@@ -34,7 +34,7 @@ nav {
   position: relative;
   display: inline-block;
 }
-.dropdowncontainer button{
+.dropdowncontainer button {
   font-size: larger;
   background-color: black;
   border: 2px solid black;
@@ -43,7 +43,7 @@ nav {
   margin-left: 20px;
   margin-right: 20px;
 }
-.dropdowncontainer button:hover{
+.dropdowncontainer button:hover {
   color: #cac7c7;
 }
 .dropdowncontainer-content {
@@ -57,7 +57,7 @@ nav {
   list-style: none;
 }
 .dropdowncontainer-content a:hover {
- color: #6e6c6c;
+  color: #6e6c6c;
 }
 .navcontainer a {
   font-size: larger;
@@ -159,7 +159,7 @@ nav {
   width: 80%;
   display: flex;
   justify-content: space-around;
-  position:relative;
+  position: relative;
 }
 
 .item {
@@ -173,19 +173,23 @@ nav {
 }
 
 .sudanese {
-  background-color: beige;
+  background-size: cover;
+  background-image: url("https://st2.depositphotos.com/3300441/11019/i/600/depositphotos_110190786-stock-photo-table-served-with-middle-eastern.jpg");
 }
 
 .taiwanese {
-  background-color: bisque;
+  background-size: cover;
+  background-image: url("https://a.cdn-hotels.com/gdcs/production72/d991/9839366f-b886-41aa-96b5-eeddff00a9c5.jpg");
 }
 
 .tunisian {
-  background-color: blanchedalmond;
+  background-size: cover;
+  background-image: url("https://d1ralsognjng37.cloudfront.net/60c9c22c-3f92-4dbb-ab5d-de562db451f0.jpeg ");
 }
 
 .german {
-  background-color: burlywood;
+  background-size: cover;
+  background-image: url("https://cdn.discordapp.com/attachments/1080774193274175558/1091009631695929384/germanfood.jpeg");
 }
 
 /* footer yosra */
@@ -195,17 +199,21 @@ nav {
   justify-content: space-evenly;
   width: 100%;
   background-color: black;
-  padding: 3em;
+  padding: 1em;
+  /* height: 250px; */
 }
 .box1 {
   display: flex;
   width: 20%;
   flex-direction: column;
-  justify-content: flex-end;
+  justify-content: center;
+  font-size: small;
+}
+.cooglelogo {
+  width: 100px;
 }
 .logos {
   display: flex;
-  justify-content: space-evenly;
 }
 .logos img {
   width: 10%;
@@ -214,30 +222,35 @@ nav {
 .box2 {
   display: flex;
   flex-direction: column;
-  justify-content: flex-end;
+  justify-content: center;
   width: 20%;
+  font-size: small;
   padding-left: 2em;
 }
 .box3 {
   display: flex;
   flex-direction: column;
-  justify-content: flex-end;
+  justify-content: center;
+  font-size: small;
   width: 20%;
 }
 .box4 {
-  box-sizing: border-box;
-  width: 30%;
   display: flex;
+  flex-direction: column;
+  width: 20%;
+}
+.button:hover {
+  color: yellow;
+}
+.button {
+  width: 20%;
 }
 
-p {
+.privacycontainer p {
   color: white;
 }
 
-h4:hover {
-  color: blue;
-}
-h4 {
+.privacycontainer h4 {
   color: white;
 }
 .box2 li:hover {
@@ -250,13 +263,18 @@ h4 {
 .box3 ul li {
   color: white;
 }
-span {
+.box4 span {
   color: white;
 }
 .mywidth {
-  width: 20em;
+  width: 15em;
   font-size: 1em;
+  resize: none;
 }
+h4:hover {
+  color: blue;
+}
+
 /* ####### END OF LANDING PAGE ###### */
 /* catagory-page-stele Maxine */
 .catagoryContainer {
@@ -300,7 +318,7 @@ span {
   justify-content: space-around;
   color: #000;
 }
-.catagoryLableContainer button{
+.catagoryLableContainer button {
   background-color: transparent;
   border: 0cm;
 }
@@ -328,7 +346,7 @@ span {
   width: 520px;
   height: 520px;
   border-radius: 15px;
-/*   background-color: blanchedalmond; */
+  /*   background-color: blanchedalmond; */
 }
 
 .imgDish img {
