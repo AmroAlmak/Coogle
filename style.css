@@ -384,29 +384,6 @@ h4:hover {
   font-size: 1em;
 }
 
-.dishContent h3 {
-  text-align: center;
-}
-
-.dishContent p {
-  color: black;
-}
-
-.dishIngredients ul li{
-  text-align: center;
-  list-style: none;
-}
-
-.dishIngredients p{
-  text-align: center;
-}
-
-.ingredientsList li {
-  color: black;
-  text-align: center;
-  list-style: none;
-}
-
 .dishDescription {
   margin-top: 20px;
 }
