@@ -5,6 +5,9 @@
   padding: 0;
   box-sizing: border-box;
   font-family: "Futura PT", sans-serif;
+  }
+a {
+  text-decoration:none;
 }
 
 /*  header maxine */
@@ -174,24 +177,37 @@ nav {
   justify-content: center;
 }
 
+.cuisinesItems a{
+  color: whitesmoke;
+  font-size: 23px;
+}
+
 .sudanese {
+  background: linear-gradient(rgba(36, 36, 36, 0.7), rgba(32, 32, 32, 0.3)),
+  url("https://st2.depositphotos.com/3300441/11019/i/600/depositphotos_110190786-stock-photo-table-served-with-middle-eastern.jpg");
   background-size: cover;
-  background-image: url("https://st2.depositphotos.com/3300441/11019/i/600/depositphotos_110190786-stock-photo-table-served-with-middle-eastern.jpg");
+  background-position: center;
 }
 
 .taiwanese {
+  background: linear-gradient(rgba(36, 36, 36, 0.7), rgba(32, 32, 32, 0.3)),
+  url("https://a.cdn-hotels.com/gdcs/production72/d991/9839366f-b886-41aa-96b5-eeddff00a9c5.jpg");
   background-size: cover;
-  background-image: url("https://a.cdn-hotels.com/gdcs/production72/d991/9839366f-b886-41aa-96b5-eeddff00a9c5.jpg");
+  background-position: center;
 }
 
 .tunisian {
+  background: linear-gradient(rgba(36, 36, 36, 0.7), rgba(32, 32, 32, 0.3)),
+  url("https://d1ralsognjng37.cloudfront.net/60c9c22c-3f92-4dbb-ab5d-de562db451f0.jpeg ");
   background-size: cover;
-  background-image: url("https://d1ralsognjng37.cloudfront.net/60c9c22c-3f92-4dbb-ab5d-de562db451f0.jpeg ");
+  background-position: center;
 }
 
 .german {
+  background: linear-gradient(rgba(36, 36, 36, 0.7), rgba(32, 32, 32, 0.3)),
+  url("https://cdn.discordapp.com/attachments/1080774193274175558/1091009631695929384/germanfood.jpeg"); 
   background-size: cover;
-  background-image: url("https://cdn.discordapp.com/attachments/1080774193274175558/1091009631695929384/germanfood.jpeg");
+  background-position: center;
 }
 
 /* footer yosra */
